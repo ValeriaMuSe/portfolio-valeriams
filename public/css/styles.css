@@ -1,0 +1,26 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto; }
+
+.header--background {
+  background-color: #242242;
+  color: #ffffff;
+  margin: -16px 0px; }
+
+.link {
+  text-decoration: none;
+  color: #fff; }
+
+.list {
+  list-style: none; }
+
+.banner--background {
+  background-color: #242242;
+  color: #ffffff; }
+
+.avatar__image {
+  width: 85px; }
+
+.icon {
+  width: 40px; }
