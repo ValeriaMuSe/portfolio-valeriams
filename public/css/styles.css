@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0 auto; }
 
-.header--background {
+.header__home--background {
   background-color: #242242;
   color: #ffffff;
   margin: -16px 0px; }
