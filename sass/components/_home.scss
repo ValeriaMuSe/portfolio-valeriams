@@ -1,12 +1,198 @@
+@import'./breakpoints';
+
 .banner--background {
-  background-color: $blue;
+  background: rgb(33,31,59);
+  background: linear-gradient(90deg, rgba(33,31,59,1) 0%, rgba(74,100,159,1) 100%);
   color: #ffffff;
+  width: auto;
+  height: auto;
 }
 
 .avatar__image {
   width: 85px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 
-.icon {
-  width: 40px;
+.banner__title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.banner__description {
+  text-align: center;
+  color: #dcdcdc;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.about-me__container {
+  box-shadow:
+  0px 0.3px 1.2px rgba(0, 0, 0, 0.031),
+  0px 0.9px 3.4px rgba(0, 0, 0, 0.045),
+  0px 2.1px 8.1px rgba(0, 0, 0, 0.059),
+  0px 7px 27px rgba(0, 0, 0, 0.09);
+  padding: 10px 25px;
+  margin: 35px 35px 45px 35px;
+  border-radius: 7px;
+}
+
+.projects__title {
+  text-align: center;
+}
+
+.project__container {
+  box-shadow:
+  0px 0.3px 1.2px rgba(0, 0, 0, 0.031),
+  0px 0.9px 3.4px rgba(0, 0, 0, 0.045),
+  0px 2.1px 8.1px rgba(0, 0, 0, 0.059),
+  0px 7px 27px rgba(0, 0, 0, 0.09);
+  padding: 25px;
+  margin: 20px;
+  border-radius: 7px;
+}
+
+.project__container--margin {
+  margin-top: 40px;
+}
+
+.home-project__image {
+  width: 96%;
+  border-radius: 7px;
+}
+
+.project__description {
+  margin-bottom: 30px;
+}
+
+.project__btn {
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 7px;
+  background-color: $purple;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.figma__btn {
+  padding: 5px;
+}
+
+.project__btn--padding {
+  padding: 5px;
+}
+
+.footer {
+  background: rgb(33,31,59);
+  background: linear-gradient(90deg, rgba(33,31,59,1) 0%, rgba(74,100,159,1) 100%);
+  margin-top: 40px;
+  text-align: center;
+  color: #ffffff;
+  width: auto;
+  height: 265px;
+  padding: 12px;
+}
+
+.footer__quote {
+  color: #dcdcdcba;
+}
+
+.footer__social {
+  color: #ffffffd4;
+}
+
+@include tablet {
+
+  .home__title {
+    font-size: 30px;
+  }
+
+  .home__description {
+    font-size: 18px;
+  }
+
+  .about-me__subtitle {
+    font-size: 30px;
+  }
+
+  .about-me__description {
+    font-size: 18px;
+  }
+
+  .projects__title {
+    margin: 40px 0px;
+    font-size: 30px;
+  }
+
+  .project__subtitle {
+    margin-bottom: -10px;
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+}
+
+@include desktop {
+
+  .home__title {
+    font-size: 32px;
+  }
+
+  .home__description {
+    font-size: 18px;
+  }
+
+  .about-me__subtitle {
+    font-size: 30px;
+  }
+
+  .about-me__description {
+    font-size: 18px;
+  }
+
+  .projects__title {
+    margin: 40px 0px;
+    font-size: 30px;
+  }
+
+  .projects--flex {
+    display: flex;
+  }
+
+  .project__container {
+    width: 900px;
+    height: auto;
+  }
+
+  .project__subtitle {
+    margin-bottom: -10px;
+  }
+
+  .project__container--margin {
+    margin: 19px;
+  }
+
+  .footer {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 17px;
+  }
+
+  .footer__logo {
+    font-size: 25px;
+    margin-left: 95px;
+    padding-right: 20px;
+    border-right: solid;
+  }
+
+  .footer__quote {
+    padding-left: 20px;
+    font-size: 16px;
+    width: 460px;
+  }
 }

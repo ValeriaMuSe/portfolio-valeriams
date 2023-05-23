@@ -11,52 +11,66 @@
   <title>Contacto</title>
 </head>
 <body>
-  <header class="header__home--background">
-    <p class="logo">Portfolio ValMS.</p>
-    <nav class="menu">
-      <ul>
-        <li class="list"><a href="../index.html" class="link">Inicio</a></li>
-        <li class="list"><a href="../pages/curriculum.html" class="link">Curriculum</a></li>
-        <li class="list"><a href="../pages/proyectos.html" class="link">Proyectos</a></li>
-        <li class="list"><a href="contacto.html" class="link">Contacto</a></li>
-      </ul>
+  <header class="header__container">
+    <p class="logo">ValMS.</p>
+    <nav class="menu links__container">
+      <a href="../index.html" class="link">Home</a>
+      <a href="../pages/curriculum.html" class="link">CV</a>
+      <a href="../pages/proyectos.html" class="link">Portfolio</a>
+      <a href="contacto.html" class="link">Contact</a>
     </nav>    
   </header>
   <main>
     <div class="banner--background">
-      <img class="avatar__image" src="../imgs/contact-icon.png" alt="">
-      <h1>Contacto</h1>
-      <p>Medios por donde me puedes encontrar</p>
+      <div>
+        <img class="avatar__image" src="../imgs/contact-icon.png" alt="">
+        <div>
+          <h1 class="banner__title">Contact</h1>
+          <p class="banner__description">Ways where you can find me</p>
+        </div>
+      </div>
     </div>
     <div>
       <!-- Primer div -->
-      <div>
+      <div class="skill__content skill__content-education">
         <!-- Instagram -->
-        <div>
+        <div class="skills__container skills__container-education">
           <a target="_blank" href="https://bit.ly/3JcCbjB"><img class="icon" src="../imgs/instagram-icon.svg" alt=""></a>
+          <p>@valems0213</p>
         </div>
         <!-- Facebook -->
-        <div>
+        <div class="skills__container skills__container-education">
           <a target="_blank" href="https://bit.ly/3JfcqiW"><img class="icon" src="../imgs/facebook-icon.svg" alt=""></a>
+          <p>Vale Murillo Segura</p>
         </div>
         <!-- Github -->
-        <div>
+        <div class="skills__container skills__container-education">
           <a target="_blank" href="http://bit.ly/3oCWHAD"><img class="icon" src="../imgs/github.png" alt=""></a>
+          <p>ValeriaMuSe</p>
         </div>
       </div>
       <!-- Segundo div -->
-      <div>
+      <div class="skill__content">
         <!-- Mail -->
-        <div>
+        <div class="skills__container skills__container-education">
           <a target="_blank" href="mailto:valeriams13@gmail.com"><img class="icon" src="../imgs/mail-icon.svg" alt=""></a>
+          <p>valeriams13@gmail.com</p>
         </div>
         <!-- Location -->
-        <div>
+        <div class="skills__container skills__container-education">
           <img class="icon" src="../imgs/location-icon.svg" alt="">
-          <p>San José, Costa Rica</p>
+          <p>San Jose, Costa Rica</p>
         </div>
       </div>
     </div>
   </main>
-  <footer></footer>
+  <footer class="footer">
+    <h4>ValMS.</h4>
+    <p class="footer__quote">"I can do everything through Christ who gives me strength." Philippians 4:13</p>
+    <div>
+      <p>Instagram: @valems0213</p>
+      <p>Facebook: Vale Murillo Segura</p>
+      <p>valeriams13@gmail.com</p>
+    </div>
+  </footer>
 </body>

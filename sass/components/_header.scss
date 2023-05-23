@@ -1,14 +1,63 @@
-.header__home--background {
-  background-color: $blue;
+@import'./breakpoints';
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  padding: 15px 20px 0px 20px;
+  font-size: 16px;
+}
+
+.header__container {
+  background: rgb(33,31,59);
+  background: linear-gradient(90deg, rgba(33,31,59,1) 0%, rgba(74,100,159,1) 100%);
   color: #ffffff;
-  margin: -16px 0px;
+  margin: -1px 0px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.links__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px 0px 0px;
+  font-size: 15px;
 }
 
 .link {
   text-decoration: none;
   color: #fff;
+  margin-right: 7px;
 }
 
-.list {
-  list-style: none;
+@include tablet{
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .link {
+    margin-right: 14px;
+  }
+
+  .links__container {
+    font-size: 18px;
+  }
+}
+
+@include desktop{
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .link {
+    margin-right: 15px;
+  }
+
+  .links__container {
+    font-size: 20px;
+  }
 }

@@ -8,84 +8,85 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../public/css/styles.css">
-  <title>Proyectos</title>
+  <title>Portfolio</title>
 </head>
 <body>
-  <header class="header__home--background">
-    <p class="logo">Portfolio ValMS.</p>
-    <nav class="menu">
-      <ul>
-        <li class="list"><a href="../index.html" class="link">Inicio</a></li>
-        <li class="list"><a href="../pages/curriculum.html" class="link">Curriculum</a></li>
-        <li class="list"><a href="proyectos.html" class="link">Proyectos</a></li>
-        <li class="list"><a href="../pages/contacto.html" class="link">Contacto</a></li>
-      </ul>
+  <header class="header__container">
+    <p class="logo">ValMS.</p>
+    <nav class="menu links__container">
+      <a href="../index.html" class="link">Home</a>
+      <a href="curriculum.html" class="link">CV</a>
+      <a href="../pages/proyectos.html" class="link">Portfolio</a>
+      <a href="../pages/contacto.html" class="link">Contact</a>
     </nav>    
   </header>
   <main>
     <div class="banner--background">
       <img class="avatar__image" src="../imgs/project-icon.png" alt="">
-      <h1>Proyectos</h1>
-      <p>Aquí podrás encontrar algunos de mis proyectos</p>
+      <div>
+        <h1 class="banner__title">Portfolio</h1>
+        <p class="banner__description">Here you can find some of my projects</p>
+      </div>
     </div>
     <div>
       <!-- Primer Div -->
-      <div>
-        <div class="proyectos__home">
-          <img src="../imgs/infinite-learning.jpg" alt="">
-          <h3>Infinite Learning Project</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Veniam velit, tempora molestiae sed perspiciatis natus id, sunt, omnis illum nesciunt alias ut repellat excepturi! 
-            Aliquam blanditiis eligendi voluptate eum inventore.</p>
-          <a target="_blank" href="https://proyecto-web-final.vercel.app/">Ver más</a>
-          <a target="_blank" href="https://bit.ly/3MMAo8n">Ver diseño en Figma</a>
+      <div class="projects--flex">
+        <div class="project__container project--margin">
+          <img class="home-project__image" src="../imgs/infinite-learning.jpg" alt="">
+          <h3 class="project__subtitle">Infinite Learning Project</h3>
+          <p class="project__description">This was a project that I made with some of my webmates about an educational platform. It was created with HTML and CSS (Sass).</p>
+          <a class="project__btn project__btn--padding" target="_blank" href="https://proyecto-web-final.vercel.app/">See project</a>
+          <a class="project__btn figma__btn" target="_blank" href="https://bit.ly/3MMAo8n">Figma Design</a>
         </div>
-        <div class="proyectos__home">
-          <img src="../imgs/go-travel.jpg" alt="">
-          <h3>Go Travel Project</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Veniam velit, tempora molestiae sed perspiciatis natus id, sunt, omnis illum nesciunt alias ut repellat excepturi! 
-            Aliquam blanditiis eligendi voluptate eum inventore.</p>
-          <a target="_blank" href="https://hotel-project-eight.vercel.app/">Ver más</a>
+        <div class="project__container project--margin">
+          <img class="home-project__image" src="../imgs/go-travel.jpg" alt="">
+          <h3 class="project__subtitle">Go Travel Project</h3>
+          <p class="project__description">This was a project that I did with my webmates and it is about a site that offers tourist places with a list of hotels. It was created with HTML and CSS (Sass).</p>
+          <a class="project__btn" target="_blank" href="https://hotel-project-eight.vercel.app/">See project</a>
         </div>
-        <div class="proyectos__home">
-          <img src="../imgs/dalio.jpg" alt="">
-          <h3>Dalio Creative Digital Agency</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Veniam velit, tempora molestiae sed perspiciatis natus id, sunt, omnis illum nesciunt alias ut repellat excepturi! 
-            Aliquam blanditiis eligendi voluptate eum inventore.</p>
-          <a target="_blank" href="https://dalio-landing-page.vercel.app/">Ver más</a>
-        </div>
-        <div class="proyectos__home">
-          <img src="../imgs/biccas.jpg" alt="">
-          <h3>Biccas Landing Page</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Veniam velit, tempora molestiae sed perspiciatis natus id, sunt, omnis illum nesciunt alias ut repellat excepturi! 
-            Aliquam blanditiis eligendi voluptate eum inventore.</p>
-          <a target="_blank" href="https://biccas-landing-page.vercel.app/">Ver más</a>
+        <div class="project__container project--margin">
+          <img class="home-project__image" src="../imgs/dalio.jpg" alt="">
+          <h3 class="project__subtitle">Dalio Creative Digital Agency</h3>
+          <p class="project__description">This was a project that I did for my first quarter at the Cetav.It was created with HTML and CSS.</p>
+          <a class="project__btn" target="_blank" href="https://dalio-landing-page.vercel.app/">See project</a>
         </div>
       </div>
       <!-- Segundo Div -->
-      <div>
-        <div class="proyectos__home">
-          <img src="../imgs/pokemonapp.png" alt="">
-          <h3>Pokemon Project</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Veniam velit, tempora molestiae sed perspiciatis natus id, sunt, omnis illum nesciunt alias ut repellat excepturi! 
-            Aliquam blanditiis eligendi voluptate eum inventore.</p>
-          <a target="_blank" href="https://pokemon-app-one-chi.vercel.app/">Ver más</a>
+      <div class="projects--flex">
+        <div class="project__container project--margin">
+          <img class="home-project__image" src="../imgs/biccas.jpg" alt="">
+          <h3 class="project__subtitle">Biccas Landing Page</h3>
+          <p class="project__description">This was a project that I did for my first quarter at the Cetav.It was created with HTML and CSS.</p>
+          <a class="project__btn" target="_blank" href="https://biccas-landing-page.vercel.app/">See project</a>
         </div>
-        <div class="proyectos__home">
-          <img src="../imgs/silvestre.jpg" alt="">
-          <h3>Silvestre Restaurant Design</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Veniam velit, tempora molestiae sed perspiciatis natus id, sunt, omnis illum nesciunt alias ut repellat excepturi! 
-            Aliquam blanditiis eligendi voluptate eum inventore.</p>
-          <a target="_blank" href="https://bit.ly/3q0ipCC">Ver diseño en Figma</a>
+        <div class="project__container project--margin">
+          <img class="home-project__image" src="../imgs/pokemonapp.png" alt="">
+          <h3 class="project__subtitle">Pokemon Project</h3>
+          <p class="project__description">This was a project about showing pokemons on the screen when you select it from the menu. It was created with HTML, CSS and JavaScript.</p>
+          <a class="project__btn" target="_blank" href="https://pokemon-app-one-chi.vercel.app/">See project</a>
+        </div>
+        <div class="project__container project--margin">
+          <img class="home-project__image" src="../imgs/silvestre.jpg" alt="">
+          <h3 class="project__subtitle">Silvestre Restaurant Design</h3>
+          <p class="project__description">Design that I had to recreate from a Restaurant called Silvestre here in Costa Rica, for my Interface Design class of the third quarter at Cetav</p>
+          <a class="project__btn" target="_blank" href="https://bit.ly/3q0ipCC">Figma Design</a>
         </div>
       </div>
     </div>
+    <div class="about-me__container">
+      <a target="_blank" href="https://drive.google.com/drive/folders/12Yg7rIuQGS-M-4qRWUYFR-s4Bmrsy7wn?usp=sharing"><h2 class="about-me__subtitle">More Projects</h2></a>
+      <p class="about-me__description">This link will direct you to a Google Drive folder.
+        What you will see here is a set of the projects that I have done for the illustrator and photoshop design courses.</p>
+    </div>
   </main>
-  <footer></footer>
+  <footer class="footer">
+    <h4 class="footer__logo">ValMS.</h4>
+    <p class="footer__quote">"I can do everything through Christ who gives me strength." Philippians 4:13</p>
+    <div class="footer__social">
+      <p>Instagram: @valems0213</p>
+      <p>Facebook: Vale Murillo Segura</p>
+      <p>valeriams13@gmail.com</p>
+    </div>
+  </footer>
 </body>
 </html>

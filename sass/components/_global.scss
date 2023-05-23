@@ -1,12 +1,20 @@
 // Colors 
-$purple: #b06ce6;
-$green: #36c06d;
-$red: #ff4c61;
-$blue: #242242;
+$orange: #f68a4f;
+$light-blue: #92c4ff;
+$yellow: #FFd9a1;
+$purple: #8e71ff;
+$blue: #004a74;
+$green: #74e2b8;
+$dark-blue: #242242;
 
 // Font
 body {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   margin: 0 auto;
+  color: $dark-blue;
+}
+
+.icon {
+  width: 50px;
 }

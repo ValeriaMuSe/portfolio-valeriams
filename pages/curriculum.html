@@ -11,147 +11,161 @@
   <title>Curriculum</title>
 </head>
 <body>
-  <header class="header__home--background">
-    <p class="logo">Portfolio ValMS.</p>
-    <nav class="menu">
-      <ul>
-        <li class="list"><a href="../index.html" class="link">Inicio</a></li>
-        <li class="list"><a href="curriculum.html" class="link">Curriculum</a></li>
-        <li class="list"><a href="../pages/proyectos.html" class="link">Proyectos</a></li>
-        <li class="list"><a href="../pages/contacto.html" class="link">Contacto</a></li>
-      </ul>
+  <header class="header__container">
+    <p class="logo">ValMS.</p>
+    <nav class="menu links__container">
+      <a href="../index.html" class="link">Home</a>
+      <a href="../pages/curriculum.html" class="link">CV</a>
+      <a href="proyectos.html" class="link">Portfolio</a>
+      <a href="../pages/contacto.html" class="link">Contact</a>
     </nav>    
   </header>
   <main>
     <div class="banner--background">
-      <img class="avatar__image" src="../imgs/cv-icon.png" alt="">
-      <h1>Curriculum</h1>
-      <p>Aquí podrás encontrar información sobre mi curriculum y algunas de mis habilidades</p>
+      <div>
+        <img class="avatar__image" src="../imgs/cv-icon.png" alt="">
+        <div>
+          <h1 class="banner__title">Curriculum</h1>
+          <p class="banner__description">Here you can find information about my resume and some of my skills</p>
+        </div>
+      </div>
     </div>
     <div>
-      <h2>Habilidades</h2>
+      <h2 class="skills__title">Skills</h2>
       <!-- 4 skills group 1-->
-      <div>
-        <p>Web</p>
-        <div>
-          <img src="../imgs/html-5.png" alt="">
-          <h3>HTML</h3>
-        </div>
-        <div>
-          <img src="../imgs/css.png" alt="">
-          <img src="../imgs/sass.png" alt="">
-          <h3>CSS / SASS</h3>
-        </div>
-        <div>
-          <img src="../imgs/js.png" alt="">
-          <h3>JavaScript</h3>
-        </div>
-        <div>
-          <img src="../imgs/git.png" alt="">
-          <img src="../imgs/github.png" alt="">
-          <h3>GIT & GITHUB</h3>
+      <div class="">
+        <p class="skills__subtitle">Web</p>
+        <div class="skill__content">
+          <div class="skills__container skills__container--orange">
+            <img class="skill__icon" src="../imgs/html-5.png" alt="">
+            <h3 class="skill__type">HTML</h3>
+          </div>
+          <div class="skills__container skills__container--lightblue">
+            <img class="skill__icon" src="../imgs/css.png" alt="">
+            <h3 class="skill__type">CSS / SASS</h3>
+          </div>
+          <div class="skills__container skills__container--yellow">
+            <img class="skill__icon" src="../imgs/js.png" alt="">
+            <h3 class="skill__type">JavaScript</h3>
+          </div>
+          <div class="skills__container skills__container--purple">
+            <img class="skill__icon" src="../imgs/git.png" alt="">
+            <img class="skill__icon" src="../imgs/github.png" alt="">
+            <h3 class="skill__type">GIT & GITHUB</h3>
+          </div>
         </div>
       </div>
       <!-- 4 skills group 2-->
-      <div>
-        <p>Diseño</p>
-        <div>
-          <img src="../imgs/ui.png" alt="">
-          <h3>UI/UX</h3>
-        </div>
-        <div>
-          <img src="../imgs/figma.png" alt="">
-          <h3>Figma</h3>
-        </div>
-        <div>
-          <img src="../imgs/ilustrador.png" alt="">
-          <h3>Illustrator</h3>
-        </div>
-        <div>
-          <img src="../imgs/photoshop.png" alt="">
-          <h3>Photoshop</h3>
+      <div class="">
+        <p class="skills__subtitle">Design</p>
+        <div class="skill__content">
+          <div class="skills__container skills__container--blue">
+            <img class="skill__icon" src="../imgs/ui.png" alt="">
+            <h3 class="skill__type">UI/UX</h3>
+          </div>
+          <div class="skills__container skills__container--green">
+            <img class="skill__icon" src="../imgs/figma.png" alt="">
+            <h3 class="skill__type">Figma</h3>
+          </div>
+          <div class="skills__container skills__container--yellow">
+            <img class="skill__icon" src="../imgs/ilustrador.png" alt="">
+            <h3 class="skill__type">Illustrator</h3>
+          </div>
+          <div class="skills__container skills__container--lightblue">
+            <img class="skill__icon" src="../imgs/photoshop.png" alt="">
+            <h3 class="skill__type">Photoshop</h3>
+          </div>
         </div>
       </div>
       <!-- Languages-->
       <div>
-        <p>Idiomas</p>
-        <div>
-          <img src="../imgs/espanol.png" alt="">
-          <h3>Español</h3>
-          <p>100%</p>
-        </div>
-        <div>
-          <img src="../imgs/english.png" alt="">
-          <h3>Inglés</h3>
-          <p>70%</p>
+        <p class="skills__subtitle">Languages</p>
+        <div class="skill__content language__content">
+          <div class="skills__container skills__container--yellow">
+            <img class="skill__icon" src="../imgs/espanol.png" alt="">
+            <h3>Spanish</h3>
+            <p class="language-percent">100%</p>
+          </div>
+          <div class="skills__container skills__container--blue">
+            <img class="skill__icon" src="../imgs/english.png" alt="">
+            <h3>English</h3>
+            <p class="language-percent">70%</p>
+          </div>
         </div>
       </div>
     </div>
     <!-- Education -->
     <!-- Primer Div --> 
     <div>
-      <h2>Educación</h2>
-      <div>
+      <h2 class="skills__title">Education</h2>
+      <div class="skill__content skill__content-education">
         <!-- School -->
-        <div>
-          <img src="../imgs/graduation-icon.png" alt="">
+        <div class="skills__container skills__container-education">
+          <img class="skill__icon" src="../imgs/graduation-icon.png" alt="">
           <div>
-            <p>2011 - 2016</p>
-            <h3>Escuela Autumn Miller</h3>
-            <p>Certificado: Aprobación de Estudios del  Primero y Segundo Ciclo de la Enseñanza General Básica.</p>
+            <p class="education__date">2011 - 2016</p>
+            <h3>Autumn Miller School</h3>
+            <p>Degree: Approval of Studies of the First and Second Cycle of Basic General Education.</p>
           </div>
         </div>
         <!-- High School -->
-        <div>
-          <img src="../imgs/graduation-icon.png" alt="">
+        <div class="skills__container skills__container-education">
+          <img class="skill__icon" src="../imgs/graduation-icon.png" alt="">
           <div>
-            <p>2017 - 2019</p>
-            <h3>Colegio Instituto Centroamericano Adventista</h3>
-            <p>Certificado: Conclusión de Estudios de la Educación General Básica.</p>
+            <p class="education__date">2017 - 2019</p>
+            <h3>Central American Adventist Institute High School</h3>
+            <p>Degree: Completion of Studies of Basic General Education.</p>
           </div>
         </div>
-        <div>
-          <img src="../imgs/graduation-icon.png" alt="">
+        <div class="skills__container skills__container-education">
+          <img class="skill__icon" src="../imgs/graduation-icon.png" alt="">
           <div>
-            <p>2020 - 2021</p>
-            <h3>Colegio Instituto de Alajuela</h3>
-            <p>Certificado: Bachiller en Educación Media y Prueba de Dominio Lingüistico en Inglés 
-              calificado por la Escuela de Lenguas modernas de la UCR: Nivel de Lectura B2 - Escucha C1.</p>
+            <p class="education__date">2020 - 2021</p>
+            <h3>Alajuela Institute High School</h3>
+            <p>Degree: Bachelor of Secondary Education and Test of Linguistic Proficiency in English. Reading Level B2 and the Listening C1.</p>
           </div>
         </div>
       </div>
       <!-- Segundo Div -->
-      <div>
+      <div class="skill__content">
         <!-- UTN -->
-        <div>
-          <img src="../imgs/graduation-icon.png" alt="">
+        <div class="skills__container">
+          <img class="skill__icon" src="../imgs/graduation-icon.png" alt="">
           <div>
-            <p>2020 - 2022</p>
-            <h3>Universidad Técnica Nacional</h3>
-            <p>Certificado: Curso de Inglés (Nivel B2)</p>
+            <p class="education__date">2020 - 2022</p>
+            <h3>National Technical University</h3>
+            <p>Degree: English Course (Level B2)</p>
           </div>
         </div>
         <!-- Cursos de Diseño -->
-        <div>
-          <img src="../imgs/graduation-icon.png" alt="">
+        <div class="skills__container">
+          <img class="skill__icon" src="../imgs/graduation-icon.png" alt="">
           <div>
-            <p>2021</p>
+            <p class="education__date">2021</p>
             <h3>Parque la Libertad</h3>
-            <p>Certificado: Cursos de Diseño de Ilustrador & Photoshop</p>
+            <p>Degree: Illustrator & Photoshop Design Courses</p>
           </div>
         </div>
         <!-- CETAV -->
-        <div>
-          <img src="../imgs/graduation-icon.png" alt="">
+        <div class="skills__container skills__container-education">
+          <img class="skill__icon" src="../imgs/graduation-icon.png" alt="">
           <div>
-            <p>Mayo 2022 - En progreso</p>
+            <p class="education__date">May 2022 - In progress</p>
             <h3>CETAV</h3>
-            <p>Certificado: Diseño y Desarrollo Web</p>
+            <p>Web Design and Development</p>
           </div>
         </div>
       </div>
     </div>
   </main>
-  <footer></footer>
+  <footer class="footer">
+    <h4 class="footer__logo">ValMS.</h4>
+    <p class="footer__quote">"I can do everything through Christ who gives me strength." Philippians 4:13</p>
+    <div class="footer__social">
+      <p>Instagram: @valems0213</p>
+      <p>Facebook: Vale Murillo Segura</p>
+      <p>valeriams13@gmail.com</p>
+    </div>
+  </footer>
 </body>
 </html>

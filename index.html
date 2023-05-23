@@ -11,53 +11,53 @@
   <title>Valeria-Portfolio</title>
 </head>
 <body>
-  <header class="header__home--background">
-    <p class="logo">Portfolio ValMS.</p>
-    <nav class="menu">
-      <ul>
-        <li class="list"><a href="index.html" class="link">Inicio</a></li>
-        <li class="list"><a href="./pages/curriculum.html" class="link">Curriculum</a></li>
-        <li class="list"><a href="./pages/proyectos.html" class="link">Proyectos</a></li>
-        <li class="list"><a href="./pages/contacto.html" class="link">Contacto</a></li>
-      </ul>
+  <header class="header__container">
+    <p class="logo">ValMS.</p>
+    <nav class="links__container">
+      <a href="index.html" class="link">Home</a>
+      <a href="./pages/curriculum.html" class="link">CV</a>
+      <a href="./pages/proyectos.html" class="link">Portfolio</a>
+      <a href="./pages/contacto.html" class="link">Contact</a>
     </nav>    
   </header>
   <main>
     <div class="banner--background">
-      <img class="avatar__image" src="./imgs/avatar-portfolio.png" alt="">
-      <h1>Valeria Murillo Segura</h1>
-      <p>Estudiante de Diseño y Desarrollo Web</p>
-    </div>
-    <div>
-      <h2>Sobre mí</h2>
-      <p>Soy estudiante de diseño y desarrollo web. Me considero una persona responsable y organizada, y a lo largo de mi carrera 
-        he logrado desarrollar la creatividad, el trabajo en equipo y el liderazgo. 
-        Me gusta mucho lo que es el diseñar, también la fotografía y el aprender nuevos idiomas.</p>
-    </div>
-    <div>
-      <h2>Proyectos recientes</h2>
-      <div class="proyectos__home">
-        <img src="./imgs/infinite-learning.jpg" alt="">
-        <h3>Infinite Learning Project</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Veniam velit, tempora molestiae sed perspiciatis natus id, sunt, omnis illum nesciunt alias ut repellat excepturi! 
-          Aliquam blanditiis eligendi voluptate eum inventore.</p>
-        <a target="_blank" href="https://proyecto-web-final.vercel.app/">Ver más</a>
+      <div>
+        <img class="avatar__image" src="./imgs/avatar-portfolio.svg" alt="">
+        <div>
+          <h1 class="banner__title">Valeria Murillo Segura</h1>
+          <p class="banner__description">FrontEnd Development</p>
+        </div>
       </div>
-      <div class="proyectos__home">
-        <img src="./imgs/go-travel.jpg" alt="">
-        <h3>Go travel Project</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Veniam velit, tempora molestiae sed perspiciatis natus id, sunt, omnis illum nesciunt alias ut repellat excepturi! 
-          Aliquam blanditiis eligendi voluptate eum inventore.</p>
-        <a target="_blank" href="https://hotel-project-eight.vercel.app/">Ver más</a>
+    </div>
+    <div class="about-me__container">
+      <h2 class="about-me__subtitle">About Me</h2>
+      <p class="about-me__description">I am a web design and development student. I consider myself a responsible and organized person, and throughout my career
+        I have managed to develop creativity, teamwork and leadership.
+        I really like what design is, also photography, drawing and learning new languages.</p>
+    </div>
+    <div>
+      <h2 class="projects__title">Recent Projects</h2>
+      <div class="projects--flex">
+        <div class="project__container project--margin">
+          <img class="home-project__image" src="./imgs/infinite-learning.jpg" alt="">
+          <h3 class="project__subtitle">Infinite Learning Project</h3>
+          <p class="project__description">This was a project that I made with some of my webmates about an educational platform. It was created with HTML and CSS (Sass).</p>
+          <a class="project__btn" target="_blank" href="https://proyecto-web-final.vercel.app/">See project</a>
+        </div>
+        <div class="project__container project__container--margin">
+          <img class="home-project__image" src="./imgs/go-travel.jpg" alt="">
+          <h3 class="project__subtitle">Go Travel Project</h3>
+          <p class="project__description">This was a project that I did with my webmates and it is about a site that offers tourist places with a list of hotels. It was created with HTML and CSS (Sass).</p>
+          <a class="project__btn" target="_blank" href="https://hotel-project-eight.vercel.app/">See project</a>
+        </div>
       </div>
     </div>
   </main>
-  <footer>
-    <h4>ValMS.</h4>
-    <p>"Todo lo puedo en Cristo que me da fortaleza." Filipenses 4:13</p>
-    <div>
+  <footer class="footer">
+    <h4 class="footer__logo">ValMS.</h4>
+    <p class="footer__quote">"I can do everything through Christ who gives me strength." Philippians 4:13</p>
+    <div class="footer__social">
       <p>Instagram: @valems0213</p>
       <p>Facebook: Vale Murillo Segura</p>
       <p>valeriams13@gmail.com</p>
