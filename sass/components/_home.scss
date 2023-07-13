@@ -52,7 +52,7 @@
   0px 7px 27px rgba(0, 0, 0, 0.09);
   padding: 25px;
   margin: 20px;
-  border-radius: 7px;
+  border-radius: 12px;
 }
 
 .project__container--margin {
@@ -66,6 +66,7 @@
 
 .project__description {
   margin-bottom: 30px;
+  font-size: 14px;
 }
 
 .project__btn {
@@ -75,6 +76,11 @@
   background-color: $purple;
   padding: 10px;
   margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.project__btn:hover {
+  background-color: #593fbd;
 }
 
 .figma__btn {
@@ -102,6 +108,7 @@
 
 .footer__social {
   color: #ffffffd4;
+  font-size: 15px;
 }
 
 @include tablet {
@@ -161,15 +168,17 @@
 
   .projects--flex {
     display: flex;
+    justify-content: center;
   }
 
   .project__container {
-    width: 900px;
+    width: 430px;
     height: auto;
   }
 
   .project__subtitle {
     margin-bottom: -10px;
+    font-size: 15px;
   }
 
   .project__container--margin {

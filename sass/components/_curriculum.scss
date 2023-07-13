@@ -108,7 +108,7 @@
 
   .skill__content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .language__content {
@@ -122,7 +122,18 @@
   .skills__container {
     margin: 10px;
     padding: 15px;
-    width: 295px;
+    width: 185px;
+  }
+
+  .education__container {
+    margin: 10px;
+    padding: 15px;
+    width: 240px;
+    font-size: 16px;
+  }
+
+  .education__content {
+    font-size: 15px;
   }
 
   .skill__type {
