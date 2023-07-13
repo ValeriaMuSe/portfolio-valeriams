@@ -1,11 +1,33 @@
 @import'./breakpoints';
 
 .banner--background {
-  background: rgb(33,31,59);
-  background: linear-gradient(90deg, rgba(33,31,59,1) 0%, rgba(74,100,159,1) 100%);
   color: #ffffff;
   width: auto;
   height: auto;
+  display: flex;
+  justify-content: center;
+  --bg-size: 400%;
+  --color-one: rgba(33,31,59,1);
+  --color-two: rgb(66 89 143);
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size) 100%;
+  background-clip: text;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .banner--background {
+    animation: move-bg 15s linear infinite;
+  }
+  @keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
 }
 
 .avatar__image {
@@ -150,15 +172,15 @@
   }
 
   .home__description {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .about-me__subtitle {
-    font-size: 30px;
+    font-size:20px;
   }
 
   .about-me__description {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .projects__title {
